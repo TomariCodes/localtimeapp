@@ -1,4 +1,77 @@
 body {
-    background-color: #f0f0f0;
+    background-color: #f7fdfe;
+    font-family: sans-serif;
+}
+
+h1 {
     text-align: center;
+    font-size: 36px;
+}
+
+h2 {
+    margin: 0 0 5px;
+    font-size: 28px;
+}
+select {
+    display: block;
+    width: 100%;
+    border-radius: 4px;
+    padding: 10px;
+    font-size: 18px;
+}
+
+
+.container {
+    max-width: 600px;
+    margin: 60px auto;
+    background-color: white;
+    padding: 38px;
+    box-shadow: rgba(100, 100, 111, 0.2) 8px 7px 29px 0;
+    border-radius: 10px;
+}
+
+
+.city {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+    border-bottom: 1px dashed rgba(0, 0, 0, 0.2);
+    padding: 30px 0;
+}
+
+.city:last-child {
+    border-bottom: none;
+}
+
+
+
+.date {
+    opacity: 0.7;
+}
+
+.time {
+    font-weight: bold;
+    font-size: 48px;
+}
+
+.meridiem {
+   font-size: 24px;
+   vertical-align: middle; 
+   line-height: 48px;
+}
+
+footer {
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.8);
+    text-align: center;
+}
+
+footer a {
+    color: rgba(0, 0, 0, 0.8);
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
 }
