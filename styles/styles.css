@@ -61,6 +61,15 @@ select {
    line-height: 48px;
 }
 
+.back-link {
+    display: block;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.8);
+    text-decoration: none;
+}
+
 footer {
     font-size: 18px;
     color: rgba(0, 0, 0, 0.8);
