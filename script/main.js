@@ -1,5 +1,6 @@
 let losAngelesElement = document.getElementById("los-angeles");
 let londonElement = document.getElementById("london");
+let bangkokElement = document.getElementById("bangkok");
 function updateTime() {
     // LOS ANGELES
     if (losAngelesElement) {
@@ -19,6 +20,15 @@ function updateTime() {
     londonDateElement.innerHTML = moment().tz("Europe/London").format("MMMM Do YYYY");
     let londonTime = moment().tz("Europe/London");
     londonTimeElement.innerHTML = londonTime.format("h:mm:ss [<span class=\"meridiem\">]A[</span>]");
+    }
+    // BANGKOK
+    if (bangkokElement) {
+    let bangkokTimeElement = bangkokElement.querySelector(".time");
+    let bangkokDateElement = bangkokElement.querySelector(".date");
+    
+    bangkokDateElement.innerHTML = moment().tz("Asia/Bangkok").format("MMMM Do YYYY");
+    let bangkokTime = moment().tz("Asia/Bangkok");
+    bangkokTimeElement.innerHTML = bangkokTime.format("h:mm:ss [<span class=\"meridiem\">]A[</span>]");
     }
 }
 
