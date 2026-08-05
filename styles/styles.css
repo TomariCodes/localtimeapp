@@ -84,3 +84,36 @@ footer a {
 footer a:hover {
     text-decoration: underline;
 }
+
+/* MEDIA QUERIES */ 
+
+@media (max-width: 600px) {
+    .container {
+        margin: 20px;
+        padding: 20px;
+    }
+
+    .city {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .date {
+        text-align: center;
+    }
+    
+    .time {
+        font-size: 36px;
+    }
+
+    .meridiem {
+        font-size: 18px;
+        line-height: 36px;
+    }
+
+    footer {
+        font-size: 14px;
+    }
+}
