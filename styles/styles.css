@@ -100,6 +100,10 @@ footer a:hover {
         gap: 10px;
     }
 
+    .city h2 {
+        text-align: center;
+    }
+
     .date {
         text-align: center;
     }
